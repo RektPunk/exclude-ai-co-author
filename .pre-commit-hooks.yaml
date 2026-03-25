@@ -1,0 +1,6 @@
+- id: exclude-ai-co-author
+  name: Exclude AI Co-author
+  description: AI is your power tool, not your co-author. Reclaim your Git commit.
+  entry: exclude-ai-co-author
+  language: rust
+  stages: [prepare-commit-msg]

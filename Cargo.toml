@@ -1,0 +1,11 @@
+[package]
+name = "exclude-ai-co-author"
+version = "0.0.1"
+edition = "2024"
+
+[dependencies]
+regex = "1.12.3"
+
+[[bin]]
+name = "exclude-ai-co-author"
+path = "src/main.rs"
